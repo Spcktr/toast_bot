@@ -37,11 +37,11 @@ client.on("message", (message) => {
       description: "Check below for games currently being played and their servers.",
       fields: [{
         name: "Minecraft",
-        value: "**Pack:** Feed the Beast - Infinity Evolved \n **Server:** minecraft.silvermane.me"
+        value: "**Server:** FOO"
       },
       {
         name: "ARMA 3",
-        value: "**Server name:** TCDU \n Find it in the server browser!"
+        value: "**Server name:**  \n Find it in the server browser!"
       },
       {
         name: "ARK: Survival Evolved",
@@ -49,11 +49,11 @@ client.on("message", (message) => {
       },
       {
         name: "Factorio",
-        value: "**Server Address:** games.tcdu.com.au"
+        value: "**Server Address:** FOO"
       },
       {
         name: "Space Engineers",
-        value: "**Server Address:** games.tcdu.com.au"
+        value: "**Server Address:** FOO"
       },
       {
         name: "Updates!",
