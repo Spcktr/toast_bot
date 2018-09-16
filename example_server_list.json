@@ -1,10 +1,16 @@
 {
   "title": "Games being currently played",
   "description": "Check below for the games list and their current server addresses.",
+},
+{
   "name": "Minecraft - Feed the Beast",
   "value": "**Pack:** Feed the Beast - FOOBAR \n **Server:** FOOBAR",
+},
+{
   "name": "ARMA 3",
   "value": "**Server name:** FOOBAR \n Find it in the server browser!",
+},
+{
   "name": "Updates!",
   "value": "**Check often for updates!**"
 }
