@@ -7,7 +7,7 @@ const fs = require('fs');
 // required config variables
 
 var config = require('./config.json');
-var server_list = './server_list.json';
+var server_list = require('./server_list.json');
 
 // startup logging
 
