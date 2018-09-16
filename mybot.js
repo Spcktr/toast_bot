@@ -11,7 +11,7 @@ client.on("ready", () => {
 // console log for new server joined
 client.on("guildCreate", guild => {
   console.log('New server joined: ${guild.name} (id: ${guild.id}). Serving ${guild.memberCount} members.');
-})
+});
 
 // for when a bot has been removed from a server
 client.on("guildDelete", guild => {
@@ -37,11 +37,11 @@ client.on("message", (message) => {
       description: "Check below for games currently being played and their servers.",
       fields: [{
         name: "Minecraft",
-        value: "**Server:** FOO"
+        value: "**Pack:** Feed the Beast - Infinity Evolved \n **Server:** minecraft.silvermane.me"
       },
       {
         name: "ARMA 3",
-        value: "**Server name:**  \n Find it in the server browser!"
+        value: "**Server name:** TCDU \n Find it in the server browser!"
       },
       {
         name: "ARK: Survival Evolved",
@@ -49,11 +49,11 @@ client.on("message", (message) => {
       },
       {
         name: "Factorio",
-        value: "**Server Address:** FOO"
+        value: "**Server Address:** games.tcdu.com.au"
       },
       {
         name: "Space Engineers",
-        value: "**Server Address:** FOO"
+        value: "**Server Address:** games.tcdu.com.au"
       },
       {
         name: "Updates!",
